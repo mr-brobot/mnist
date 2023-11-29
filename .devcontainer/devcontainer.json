@@ -1,0 +1,31 @@
+{
+    "name": "Rust",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.12-bullseye",
+    "hostRequirements": {
+        "gpu": "optional"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.copilot",
+                "github.copilot-labs",
+                "github.vscode-github-actions",
+                "redhat.vscode-yaml",
+                "esbenp.prettier-vscode",
+                "ms-toolsai.jupyter",
+                "ms-toolsai.vscode-jupyter-powertoys"
+            ]
+        }
+    },
+    "remoteUser": "vscode",
+    "postCreateCommand": "scripts/setup.sh",
+    "features": {
+        "ghcr.io/devcontainers/features/rust:1": {},
+        "ghcr.io/devcontainers/features/nvidia-cuda:1": {
+            "installCudnn": true,
+            "installCudnnDev": true,
+            "installNvtx": true,
+            "installToolkit": true
+        }
+    }
+}
