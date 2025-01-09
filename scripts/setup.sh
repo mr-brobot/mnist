@@ -16,3 +16,6 @@ pip install torch torchvision torchaudio
 
 # huggingface
 pip install datasets
+
+# wandb
+pip install wandb
