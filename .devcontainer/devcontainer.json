@@ -20,7 +20,6 @@
     "remoteUser": "vscode",
     "postCreateCommand": "scripts/setup.sh",
     "features": {
-        "ghcr.io/devcontainers/features/rust:1": {},
         "ghcr.io/devcontainers/features/python:1": {
             "version": "3.12"
         },
