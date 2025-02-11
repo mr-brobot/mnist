@@ -2,8 +2,8 @@
 
 http://yann.lecun.com/exdb/mnist/
 
-## TODO
+## Implementations
 
-- [ ] MLP
-- [ ] CNN
-- [ ] VIT
+- [x] MLP
+- [x] CNN
+- [] VIT
