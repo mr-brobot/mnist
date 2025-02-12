@@ -6,4 +6,4 @@ http://yann.lecun.com/exdb/mnist/
 
 - [x] MLP
 - [x] CNN
-- [] VIT
+- [ ] VIT

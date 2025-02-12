@@ -2,13 +2,14 @@
 
 pip install --upgrade pip
 
-# https://jupyter.org/install
-pip install notebook
-pip install ipywidgets
-pip install matplotlib
+# jupyter
+pip install notebook ipywidgets matplotlib
 
-# https://pytorch.org/
+# pytorch
 pip install torch torchvision
+
+# hugging face
+pip install transformers datasets peft evaluate scikit-learn
 
 # wandb
 pip install wandb
